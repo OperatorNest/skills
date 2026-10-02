@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "operatornest-skills",
+  "version": "1.0.0",
+  "description": "Eight work routines and three tools for briefs, approval rules, and receipts.",
+  "author": {
+    "name": "OperatorNest",
+    "email": "operatornest+github@gmail.com"
+  },
+  "homepage": "https://operatornest.com",
+  "license": "MIT",
+  "keywords": [
+    "research",
+    "follow-ups",
+    "briefs",
+    "approvals",
+    "receipts"
+  ],
+  "repository": "https://github.com/OperatorNest/skills"
+}

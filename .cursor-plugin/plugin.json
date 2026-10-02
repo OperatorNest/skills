@@ -1,0 +1,13 @@
+{
+  "name": "operatornest-skills",
+  "version": "1.0.0",
+  "description": "Eight work routines and three tools for briefs, approval rules, and receipts.",
+  "author": {
+    "name": "OperatorNest",
+    "email": "operatornest+github@gmail.com"
+  },
+  "homepage": "https://operatornest.com",
+  "license": "MIT",
+  "skills": "./skills/",
+  "repository": "https://github.com/OperatorNest/skills"
+}

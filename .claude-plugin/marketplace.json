@@ -1,0 +1,15 @@
+{
+  "name": "operatornest",
+  "description": "Work routines with approval boundaries and checkable receipts.",
+  "owner": {
+    "name": "OperatorNest",
+    "email": "operatornest+github@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "operatornest-skills",
+      "source": "./",
+      "description": "Eight work routines and three tools for briefs, approval rules, and receipts."
+    }
+  ]
+}
