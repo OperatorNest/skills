@@ -6,6 +6,16 @@ Eleven skills for repeatable agent work, from preparing meeting context to recor
 
 These are the public work routines documented at [operatornest.com](https://operatornest.com).
 
+The `justfile` installs the checkout toolchain, checks prerequisites and validates the skill packages:
+
+```sh
+just setup
+just doctor
+just check
+```
+
+There are no third-party package dependencies to install.
+
 ## Install
 
 Quickest, straight from GitHub:
@@ -85,7 +95,7 @@ Copy the individual folders in `skills/` into your client's documented skill dir
 
 ## Validate
 
-With Node.js 22 or later, run from the checkout root:
+For checkout validation, run `just setup` to install Node 26 and pnpm 12, then run from the checkout root (published artifacts support Node.js 22 or later):
 
 ```sh
 node scripts/validate.mjs
